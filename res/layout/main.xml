@@ -4,9 +4,34 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/so"
+	    android:textSize="20dp"
+	    />
+	    
+	 <TextView
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:text="@string/questions"
+	 	android:textSize="20dp"
+	 	/>
+	 	
+	 <TextView
+	 	android:id="@+id/total"
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:textSize="20dp"
+	 	/>
+	 	
+	 <Button
+	 	android:id="@+id/questions"
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:text="View Questions"
+	 	android:onClick="onQuestionsButtonClick"
+	 	/>
+
 </LinearLayout>
