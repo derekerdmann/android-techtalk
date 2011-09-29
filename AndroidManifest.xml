@@ -14,5 +14,10 @@
             </intent-filter>
         </activity>
 
+		<activity
+			android:name=".QuestionsActivity"
+			android:label="@string/questions_label"
+			/>
+
     </application>
 </manifest>

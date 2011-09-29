@@ -1,6 +1,7 @@
 package com.derekerdmann.androidtalk;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -21,8 +22,12 @@ public class MainActivity extends Activity {
     }
     
     
+    /**
+     * Starts the QuestionsActivity
+     * @param v - the View that generated the event
+     */
     public void onQuestionsButtonClick( View v ){
-    	
+    	startActivity( new Intent( this, QuestionsActivity.class ) );
     }
     
 }

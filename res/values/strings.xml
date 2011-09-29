@@ -3,4 +3,5 @@
     <string name="app_name">Stack Overflow Browser</string>
     <string name="so">Stack Overflow</string>
     <string name="questions">Total number of questions:</string>
+    <string name="questions_label">Top Questions</string>
 </resources>
