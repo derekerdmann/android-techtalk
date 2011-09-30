@@ -87,10 +87,9 @@ public class SOHelper {
 		} catch (JSONException e) {
 			Log.e(tag, e.getMessage() );
 			Log.e(tag, Log.getStackTraceString( e ) );
-			return null;
 		}	
 
-		return null;
+		return questions;
 	}
 	
 	

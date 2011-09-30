@@ -14,6 +14,12 @@ public class Question {
 	private int downvotes;
 	
 	
+	@Override
+	public String toString(){
+		return title;
+	}
+	
+	
 	public String getTitle() {
 		return title;
 	}
