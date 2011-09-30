@@ -5,18 +5,13 @@
     android:layout_height="fill_parent"
     >
 
-	<TextView  
-	    android:layout_width="fill_parent" 
-	    android:layout_height="wrap_content" 
-	    android:text="@string/so"
-	    android:textSize="20dp"
-	    />
-	    
 	 <TextView
 	 	android:layout_width="fill_parent"
 	 	android:layout_height="wrap_content"
 	 	android:text="@string/questions"
 	 	android:textSize="20dp"
+	 	android:gravity="center_horizontal"
+	 	android:paddingTop="20dp"
 	 	/>
 	 	
 	 <TextView
@@ -24,13 +19,23 @@
 	 	android:layout_width="fill_parent"
 	 	android:layout_height="wrap_content"
 	 	android:textSize="20dp"
+	 	android:gravity="center_horizontal"
+	 	/>
+	 
+	 <TextView
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:textSize="20dp"
+	 	android:text="@string/questions_end"
+	 	android:gravity="center_horizontal"
+	 	android:paddingBottom="20dp"
 	 	/>
 	 	
 	 <Button
 	 	android:id="@+id/questions"
 	 	android:layout_width="fill_parent"
 	 	android:layout_height="wrap_content"
-	 	android:text="View Questions"
+	 	android:text="View Top Questions"
 	 	android:onClick="onQuestionsButtonClick"
 	 	/>
 
